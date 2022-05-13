@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  background-color: #1c1c3d;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 5rem;
+  margin: auto;
+  background-color: #09235c;
+}
+.icons {
+  text-align: right;
+  margin: auto;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.left-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-side {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+header a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+  font-family: sans-serif;
+}
+li {
+  display: inline;
+  padding: 0.5rem;
+}
+.título {
+  display: inline;
+  text-align: left;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+.introdução {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+.introdução2 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+#Sites {
+  display: inline;
+  text-align: left;
+  margin-left: 0.5rem;
+  padding: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+hr {
+  margin: 1.5rem;
+  width: 96%;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  width: 80%;
+  margin: auto;
+}
+.card {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  height: 25rem;
+  background-color: #c6d8e2;
+  color: #fff;
+  border-radius: 1.5rem;
+}
+.descricao-cards {
+  text-align: center;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.botao {
+  padding: 0rem;
+  width: 25%;
+  color: #fff;
+  background-color: #d6b706;
+  border: 0.063rem solid #333;
+  border-radius: 0.313rem;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+}
+.botao:hover {
+  background-color: #d6b706;
+  transition: 0.4s;
+  filter: brightness(0.8);
+}
+#Sobre {
+  display: inline;
+  text-align: left;
+  margin-left: 0.5rem;
+  padding: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+hr {
+  margin: 1.5rem;
+  width: 96%;
+}
+.desenvolvedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1rem;
+}
+.lari {
+  width: 13.125rem;
+  height: auto;
+  border-radius: 100%;
+  margin: auto;
+  padding: 2rem;
+  float: left;
+}
+#Newsletter {
+  display: inline;
+  text-align: left;
+  margin-left: 0.5rem;
+  padding: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+.introAssinar {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+.login form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 65%;
+  margin: auto;
+  border: 0.063rem solid #333;
+  border-radius: 0.313rem;
+  padding: 0.5rem;
+  background-color: #424e53;
+}
+.login form input[type="text"],
+.login form input[type="email"] {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.313rem;
+}
+.login form input[type="text"]:focus,
+.login form input[type="email"]:focus {
+  outline: 0.125rem solid #d6b706;
+}
+
+.login form input[type="submit"] {
+  width: 50%;
+  margin: auto;
+  background-color: #d6b706;
+  padding: 0.5rem;
+  border-radius: 0.313rem;
+  font-weight: bold;
+  color: #fff;
+  transition: 0.4s;
+}
+.login form input[type="submit"]:hover {
+  filter: brightness(0.8);
+  cursor: pointer;
+}
+.final-left {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  background-color: #09235c;
+}
+.dsv {
+  display: inline;
+  text-align: left;
+  margin-left: 1rem;
+  padding: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+.info {
+  display: inline;
+  text-align: right;
+  margin-left: 1rem;
+  padding: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+@media screen and (max-width: 600px) {
+  .desenvolvedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem;
+  }
+}
